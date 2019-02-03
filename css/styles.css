@@ -1,0 +1,40 @@
+body{
+	font-family: Courier, Monaco, monospace;
+	text-align: center;
+}
+
+.d1{background-image: url("http://themcmorrislife.com/AD320_ShoppingList-master/AD320_ShoppingList-master/images/grocery.jpg");
+	grid-area: header;
+}
+.d2{background:#fff;
+	padding: 50px;
+}
+.d3{background:#fff;
+	
+	background-image: url("http://themcmorrislife.com/AD320_ShoppingList-master/AD320_ShoppingList-master/images/grocery.jpg");
+	padding: 30px;
+}
+.d4{
+	grid-area: footer;
+	background: #fff;
+}
+
+.container{
+font-size: 10px;
+	padding: 50px;
+width:50%;
+display: grid;
+margin: 0 auto;
+	/*grid-template-areas:
+		"header header "
+		". content "
+		"footer footer";*/
+	min-height: 500px;
+}
+
+.d1 img {
+	width: 30%;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+}
