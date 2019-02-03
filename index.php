@@ -25,9 +25,10 @@ redirecting you to the index page where you can use that variable in the list-->
     <input type="submit" name="submit" value="Add">
 </form>
 
-<ul>
-    <li><?=$item?><?=$qty?></li>
-</ul>
+<p>Stuff to get</p>
+<?php include 'includes/body2.php'; ?>
+<p>Stuff got</p>
+<?php include 'includes/body3.php'; ?>
 
 </body>
 </html>
