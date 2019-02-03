@@ -27,6 +27,7 @@
 
 <h1>Stuff to get</h1>
 <?php include 'includes/body2.php'; ?>
+
 <h1>Stuff got</h1>
 <?php include 'includes/body3.php'; ?>
 
@@ -38,6 +39,6 @@
 		
 
 	</div>
-
+	</div>
 </body>
 </html>
