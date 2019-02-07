@@ -1,6 +1,7 @@
 body{
 	font-family: Courier, Monaco, monospace;
 	text-align: center;
+font-size: 19px;
 }
 
 .d1{background-image: url("http://themcmorrislife.com/AD320_ShoppingList-master/AD320_ShoppingList-master/images/grocery.jpg");
@@ -20,7 +21,7 @@ body{
 }
 
 .container{
-font-size: 10px;
+font-size: 19px;
 	padding: 50px;
 width:50%;
 display: grid;
@@ -42,4 +43,29 @@ margin: 0 auto;
 p1 {
 	font-family: Courier, Monaco, monospace;
 	font-size: 25px:
+}
+form {
+width: 45%;
+margin: 50px auto;
+text-align: left;
+padding: 20px;
+border: 1px solid #bbbbbb;
+border-radius: 5px;
+}
+table {
+width: 50%;
+margin: 30px auto;
+border-collapse : collapse;
+text-align: left;
+}
+tr {
+border-bottom: 1px solid #cbcbcb;
+}
+th, td {
+border: none;
+height: 30px;
+padding: 2px;
+}
+tr : hover {
+background: #F5F5F5;
 }

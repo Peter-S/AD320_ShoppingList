@@ -12,7 +12,7 @@ $result = $conn->query($query);
 				 "Item: "
 				. $row["Item"]
 				. "    Quantity: "
-				. $row["Quanity"]
+				. $row["Quantity"]
 				. "<br>";
 			}
 		} else {

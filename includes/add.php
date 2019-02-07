@@ -7,7 +7,7 @@ include 'db.php';
 
 
 $sql = "INSERT INTO shopping_list
-			(Item, Quanity, Buy)
+			(Item, Quantity, Buy)
 		VALUE
 			('$_POST[item]', '$_POST[qty]', '1')";
 

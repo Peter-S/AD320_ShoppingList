@@ -9,11 +9,11 @@ $result = $conn->query($query);
 	if($result->num_rows > 0) {
 		while($row = $result->fetch_assoc()){
 			echo "<div>"
-				. "CB "
+				. "<input type='checkbox'>"
 				. "Item: "
 				. $row["Item"]
 				. "   Quantity: "
-				. $row["Quanity"]
+				. $row["Quantity"]
 				. "<input type='submit' name='edit' value='Edit'> "
 				. "<input type='submit' name='edit' value='Delete'>"
 				. "</div>";
