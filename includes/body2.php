@@ -9,6 +9,7 @@ $result = $conn->query($query);
 	if($result->num_rows > 0) {
 		while($row = $result->fetch_assoc()){
 			echo "<div>"
+				. "<h2>"
 				. "CB "
 				. "Item: "
 				. $row["Item"]
@@ -16,6 +17,7 @@ $result = $conn->query($query);
 				. $row["Quanity"]
 				. "<input type='submit' name='edit' value='Edit'> "
 				. "<input type='submit' name='edit' value='Delete'>"
+				. "</h2>"
 				. "</div>";
 			}
 		} else {
